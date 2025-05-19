@@ -46,6 +46,7 @@ public class Main {
         System.out.println("");
         System.out.println("");
         System.out.println("!!!!!   Second Implementation    !!!!!");
+        System.out.println("!!!!!   Second Implementation    !!!!!");
         //Second implementation
         ServiceLocator serviceLocator = new ServiceLocator();
         GetItemsUseCase injectedGetItemsUseCase = serviceLocator.provideGetItemsUseCase();
