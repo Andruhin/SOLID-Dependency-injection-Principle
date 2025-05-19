@@ -24,6 +24,7 @@ public class Main {
     public static void main(String[] args) {
 
         //First implementation
+        System.out.println("!!!!!   New feature    !!!!!");
         System.out.println("!!!!!   First Implementation    !!!!!");
 
         LocalDbRepositoryImpl localDbRepository = new LocalDbRepositoryImpl();
