@@ -16,6 +16,8 @@ public class LocalDbRepositoryImpl {
         Tool tool = new Tool("Tool1", "ToolIcon1", 20.0, "1200 W");
         ArrayList<Item> list = new ArrayList<>();
         list.add(toy);
+        list.add(toy);
+        list.add(tool);
         list.add(tool);
         return list;
     }
