@@ -14,6 +14,9 @@ public class LocalDbRepositoryImpl {
         System.out.println("Retrieve Items from LocalDB");
         Toy toy = new Toy("Toy1", "ToyIcon1", 10.0, 12);
         Tool tool = new Tool("Tool1", "ToolIcon1", 20.0, "1200 W");
-        return List.of(tool,tool, toy, toy);
+        ArrayList<Item> list = new ArrayList<>();
+        list.add(toy);
+        list.add(tool);
+        return list;
     }
 }

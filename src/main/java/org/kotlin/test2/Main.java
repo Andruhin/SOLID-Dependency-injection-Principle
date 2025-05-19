@@ -25,7 +25,6 @@ public class Main {
 
         //First implementation
         System.out.println("!!!!!   New feature    !!!!!");
-        System.out.println("!!!!!   First Implementation    !!!!!");
 
         LocalDbRepositoryImpl localDbRepository = new LocalDbRepositoryImpl();
         NetworkRepositoryImpl networkRepository = new NetworkRepositoryImpl();
