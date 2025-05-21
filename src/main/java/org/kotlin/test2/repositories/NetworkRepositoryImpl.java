@@ -15,10 +15,6 @@ public class NetworkRepositoryImpl {
         Toy toy = new Toy("Toy1", "ToyIcon1", 10.0, 12);
         Tool tool = new Tool("Tool1", "ToolIcon1", 20.0, "1200 W");
         Food food = new Food("Food", "FoodIcon", 30.0, "500 cal");
-        ArrayList<Item> list = new ArrayList<>();
-        list.add(toy);
-        list.add(tool);
-        list.add(food);
-        return list;
+        return List.of(toy, tool, food);
     }
 }
