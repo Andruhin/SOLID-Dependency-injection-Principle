@@ -25,7 +25,7 @@ public class Main {
 
         //First implementation
         System.out.println("!!!!!   New feature    !!!!!");
-        System.out.println("!!!!!   New feature 1    !!!!!");
+        System.out.println("!!!!!   New feature 5    !!!!!");
 
         LocalDbRepositoryImpl localDbRepository = new LocalDbRepositoryImpl();
         NetworkRepositoryImpl networkRepository = new NetworkRepositoryImpl();

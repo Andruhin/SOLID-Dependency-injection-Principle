@@ -17,7 +17,10 @@ public class NetworkRepositoryImpl {
         Food food = new Food("Food", "FoodIcon", 30.0, "500 cal");
         ArrayList<Item> list = new ArrayList<>();
         list.add(toy);
+        list.add(toy);
         list.add(tool);
+        list.add(tool);
+        list.add(food);
         list.add(food);
         return list;
     }
