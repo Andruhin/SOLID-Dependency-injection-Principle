@@ -30,6 +30,7 @@ public class Main {
         System.out.println("!!!!!   bugfix release 2.0    !!!!!");
         System.out.println("!!!!!   created build release 2.0    !!!!!");
         System.out.println("!!!!!   New feature 7    !!!!!");
+        System.out.println("!!!!!   bugfix release 3.0    !!!!!");
 
         LocalDbRepositoryImpl localDbRepository = new LocalDbRepositoryImpl();
         NetworkRepositoryImpl networkRepository = new NetworkRepositoryImpl();
